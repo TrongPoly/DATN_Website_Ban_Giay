@@ -9,4 +9,8 @@ public class homeController {
 	public String index() {
 		return "index";
 	}
+	@GetMapping("/product")
+	public String product() {
+		return "shop";
+	}
 }
